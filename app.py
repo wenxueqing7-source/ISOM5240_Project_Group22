@@ -281,7 +281,7 @@ with st.sidebar:
     max_new_tokens = st.slider(
         "Music generation length",
         min_value=32,
-        max_value=256,
+        max_value=1024,
         value=64,
         step=32,
         help="Higher values create longer audio but require more time and memory.",
