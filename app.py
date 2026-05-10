@@ -190,9 +190,9 @@ with st.sidebar:
 
     max_new_tokens = st.slider(
         "Music generation length",
-        min_value=128,
-        max_value=512,
-        value=256,
+        min_value=64,
+        max_value=256,
+        value=64,
         step=64,
         help="A higher value usually creates longer music, but generation becomes slower.",
     )
