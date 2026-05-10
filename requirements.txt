@@ -1,9 +1,9 @@
 streamlit
 torch
-torchvision
 transformers
 accelerate
 scipy
 numpy
 sentencepiece
 protobuf
+safetensors
