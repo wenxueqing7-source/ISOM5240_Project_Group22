@@ -30,7 +30,7 @@ USE_FINETUNED_MODEL = False   # ← set True after fine-tuning is done
 # Placeholder: real existing model used until fine-tuning is complete
 PLACEHOLDER_MODEL   = "bhadresh-savani/distilbert-base-uncased-emotion"
 # Replace this with your actual fine-tuned model after running the notebook:
-FINETUNED_MODEL     = "YOUR_HF_USERNAME/distilbert-go-emotions-music"
+FINETUNED_MODEL     = "MelodyWen7/distilbert-go-emotions-music"
 
 BLIP_MODEL          = "Salesforce/blip-image-captioning-base"
 FLANT5_MODEL        = "google/flan-t5-small"
